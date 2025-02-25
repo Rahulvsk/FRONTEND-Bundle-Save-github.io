@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bundle & Save (Task)</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h3 style="text-align: center;">Bundle & Save</h3>
+
+        <div class="box" onclick="toggleBox(this)">
+            <div class="title">
+                <input type="radio" name="data" />
+                1 Pair
+                <span class="discount">50% OFF</span> <br>
+                <span class="price">DKK 195.00</span>
+            </div>
+            <div class="box-content">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="box active" onclick="toggleBox(this)">
+            <div class="title">
+                <input type="radio" name="data" checked />
+                2 Pair
+                <span class="discount">40% OFF</span> <br>
+                <span class="price">DKK 345.00</span>
+            </div>
+            <div class="box-content">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleBox(this)">
+            <div class="title">
+                <input type="radio" name="data"/>
+                3 Pair
+                <span class="discount">60% OFF</span> <br>
+                <span class="price">DKK 528.00</span>
+            </div>
+            <div class="box-content">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#3</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <p><span style="color: #008000;">Free 2 days Shipping </span><strong> <span class="total">Total : DKK 360.00</span> </strong></p>
+        </div>
+        <button><b style="font-size: 15px;">+</b> Add to Cart</button>
+    </div>
+
+   <script src="src/script.js"></script>
+</body>
+</html>
